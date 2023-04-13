@@ -16,8 +16,7 @@ class Constuctor {
 }
 class Front extends Constuctor{
     constructor(name, role, specialization) {
-        super(name)
-        this._role = role
+        super(name, role)
         this._specialization = specialization
     }
     get specialization() {
@@ -30,8 +29,7 @@ class Front extends Constuctor{
 
 class Back extends Constuctor{
     constructor(name, role, specialization) {
-        super(name)
-        this._role = role
+        super(name, role)
         this._specialization = specialization
     }
     get specialization() {
